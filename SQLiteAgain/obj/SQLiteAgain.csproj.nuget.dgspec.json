@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\xuan hung\\source\\repos\\SQLiteAgain\\SQLiteAgain\\SQLiteAgain.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\xuan hung\\source\\repos\\SQLiteAgain\\SQLiteAgain\\SQLiteAgain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\xuan hung\\source\\repos\\SQLiteAgain\\SQLiteAgain\\SQLiteAgain.csproj",
+        "projectName": "SQLiteAgain",
+        "projectPath": "C:\\Users\\xuan hung\\source\\repos\\SQLiteAgain\\SQLiteAgain\\SQLiteAgain.csproj",
+        "packagesPath": "C:\\Users\\xuan hung\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\xuan hung\\source\\repos\\SQLiteAgain\\SQLiteAgain\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\xuan hung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.17763"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.17763": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.8, )"
+            },
+            "SQLitePCL": {
+              "target": "Package",
+              "version": "[3.8.7.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
